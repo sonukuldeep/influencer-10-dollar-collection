@@ -55,6 +55,7 @@ function opacity(className) {
             start: "top 70%",
             end: "top 70%",
             scrub: 1,
+            // markers: true,
         },
     })
 
@@ -69,9 +70,15 @@ scrollTrigger(".scroll-trigger-2")
 scrollTrigger(".scroll-trigger-3")
 scrollTrigger(".scroll-trigger-4", "500% 70%")
 scrollTrigger(".scroll-trigger-5")
+scrollTrigger(".scroll-trigger-6")
 opacity(".enable1")
 opacity(".enable2")
 opacity(".enable3")
+opacity(".enable4")
+opacity(".enable5")
+opacity(".enable6")
+opacity(".enable7")
+opacity(".enable8")
 
 
 ScrollTrigger.observe({

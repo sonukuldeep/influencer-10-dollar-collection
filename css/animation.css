@@ -2,3 +2,7 @@
   width: 0px;
   opacity: 0;
 }
+
+.scroll-trigger-6.deactive {
+  opacity: 0;
+}
