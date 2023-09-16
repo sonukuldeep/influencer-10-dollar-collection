@@ -76,6 +76,7 @@ scrollTrigger(".scroll-trigger-8")
 scrollTrigger(".scroll-trigger-9")
 scrollTrigger(".scroll-trigger-10")
 scrollTrigger(".scroll-trigger-11")
+scrollTrigger(".scroll-trigger-12")
 opacity(".enable1")
 opacity(".enable2")
 opacity(".enable3")
@@ -89,6 +90,7 @@ opacity(".enable10")
 opacity(".enable11")
 opacity(".enable12")
 opacity(".enable13")
+opacity(".enable14")
 
 
 ScrollTrigger.observe({
