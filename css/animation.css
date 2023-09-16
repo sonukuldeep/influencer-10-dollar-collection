@@ -14,3 +14,11 @@
 .scroll-trigger-12.deactive {
   opacity: 0;
 }
+
+.scroll-trigger-14.deactive {
+  opacity: 0;
+}
+
+.scroll-trigger-15.scale-fix {
+  width: fit-content !important;
+}
