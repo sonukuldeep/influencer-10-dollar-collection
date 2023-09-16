@@ -105,3 +105,25 @@ ScrollTrigger.observe({
         gsap.to('.pointer-animation-1', { y: deltaX * 0.4, x: deltaY * 0.4, })
     }
 })
+
+
+// make hamberger icon work
+const navBtn = document.querySelector('.menu-button.w-nav-button')
+const nav = document.querySelector('.w-nav-overlay')
+const headerContainer = document.querySelector('.container-header')
+
+navBtn.addEventListener('click', () => {
+    const btnStatus = navBtn.getAttribute('data-open')
+    if (btnStatus === 'close') {
+        nav.setAttribute('style', `display: block; width: ${window.innerWidth}px; height: 100vh; background-color: #ffffff; position: fixed`)
+        headerContainer.setAttribute('style', 'position: fixed; width: 100%; z-index: 10')
+        navBtn.setAttribute('data-open', 'open')
+    }
+    else {
+        window.scroll(0, 0);
+        nav.setAttribute('style', `display: none;`)
+        headerContainer.setAttribute('style', '')
+        navBtn.setAttribute('data-open', 'close')
+    }
+
+})
