@@ -283,6 +283,7 @@
             data-w-id="566a50e6-5a31-418a-8548-88ee7d85f3d3"
             class="split-content header-right"
           >
+            <!-- ecommerce 
             <div
               data-node-type="commerce-cart-wrapper"
               data-open-product=""
@@ -729,6 +730,7 @@
                 </div>
               </div>
             </div>
+            -->
             <div
               data-hover="false"
               data-delay="0"
@@ -823,7 +825,7 @@
                 </div>
               </nav>
             </div>
-            <div class="menu-button w-nav-button">
+            <div class="menu-button w-nav-button" data-open="close">
               <div class="menu-button-icon">
                 <div class="menu-line-top"></div>
                 <div class="menu-line-middle"></div>
@@ -831,6 +833,207 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="w-nav-overlay">
+          <nav
+            role="navigation"
+            class="nav-menu w-nav-menu"
+            data-nav-menu-open=""
+          >
+            <ul role="list" class="header-navigation">
+              <li class="nav-item-wrapper">
+                <a
+                  href="influencertemplate-showcase.webflow.html"
+                  aria-current="page"
+                  class="nav-link"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item-wrapper">
+                <div
+                  data-hover="false"
+                  data-delay="0"
+                  data-w-id="2b6e6b26-9c49-5ca2-6066-e99dab3c8d5a"
+                  class="dropdown-header w-dropdown w--nav-dropdown-open"
+                >
+                  <div
+                    class="nav-link dropdown w-dropdown-toggle w--nav-dropdown-toggle-open"
+                    id="w-dropdown-toggle-0"
+                    aria-controls="w-dropdown-list-0"
+                    aria-haspopup="menu"
+                    aria-expanded="false"
+                    role="button"
+                    tabindex="0"
+                  >
+                    <div class="dropdown-text">
+                      Pages&nbsp;&nbsp;<span class="icon-header-dropdown"
+                        ></span
+                      >
+                    </div>
+                  </div>
+                  <nav
+                    class="dropdown-list w-dropdown-list w--nav-dropdown-list-open"
+                    id="w-dropdown-list-0"
+                    aria-labelledby="w-dropdown-toggle-0"
+                  >
+                    <div class="w-layout-grid dropdown-grid">
+                      <div class="drop-div first">
+                        <div class="drop-title">Menu</div>
+                        <div class="w-layout-grid drop-grid">
+                          <div class="dropdown-menu-wrapper">
+                            <a
+                              href="influencertemplate-showcase.webflow.html"
+                              aria-current="page"
+                              class="drop-link w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text"><div>Home</div></div>
+                            </a>
+                            <a
+                              href="about.html"
+                              class="drop-link w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text"><div>About Me</div></div>
+                            </a>
+                            <a
+                              href="contact.html"
+                              class="drop-link w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text">
+                                <div>Contact Me</div>
+                              </div>
+                            </a>
+                            <a
+                              href="videos.html"
+                              class="drop-link w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text"><div>Videos</div></div>
+                            </a>
+                          </div>
+                          <div class="dropdown-menu-wrapper">
+                            <a
+                              href="events.html"
+                              class="drop-link large w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text"><div>Events</div></div>
+                            </a>
+                            <a
+                              href="store.html"
+                              class="drop-link w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text"><div>Store</div></div>
+                            </a>
+                            <a
+                              href="blog.html"
+                              class="drop-link w-inline-block"
+                              tabindex="0"
+                            >
+                              <div class="drop-text"><div>Blog</div></div>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="drop-div">
+                        <div class="drop-title">CMS Pages</div>
+                        <div class="dropdown-menu-wrapper">
+                          <a
+                            href="https://influencertemplate.webflow.io/article/opening-a-new-personal-youtube-channel-imsophie"
+                            class="drop-link w-inline-block"
+                            tabindex="0"
+                          >
+                            <div class="drop-text">
+                              <div>Blog Post CMS</div>
+                            </div>
+                          </a>
+                          <a
+                            href="https://influencertemplate.webflow.io/youtube-video/crazy-pool-challenges-with-my-friends"
+                            class="drop-link w-inline-block"
+                            tabindex="0"
+                          >
+                            <div class="drop-text"><div>Video CMS</div></div>
+                          </a>
+                          <a
+                            href="https://influencertemplate.webflow.io/event/meet-greet-with-me-saravlogs-in-central-park-new-york"
+                            class="drop-link w-inline-block"
+                            tabindex="0"
+                          >
+                            <div class="drop-text"><div>Event CMS</div></div>
+                          </a>
+                          <a
+                            href="https://influencertemplate.webflow.io/product/iphone-11-pro-case"
+                            class="drop-link w-inline-block"
+                            tabindex="0"
+                          >
+                            <div class="drop-text">
+                              <div>Product Ecommerce</div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="drop-div last">
+                        <div class="drop-title last">Utility Pages</div>
+                        <a
+                          href="styleguide.html"
+                          class="drop-link-last w-inline-block"
+                          tabindex="0"
+                          ><div>Style Guide</div></a
+                        >
+                        <a
+                          href="https://influencertemplate.webflow.io/404"
+                          class="drop-link-last w-inline-block"
+                          tabindex="0"
+                          ><div>404 Not Found</div></a
+                        >
+                        <a
+                          href="https://influencertemplate.webflow.io/401"
+                          class="drop-link-last w-inline-block"
+                          tabindex="0"
+                          ><div>Password Protected</div></a
+                        >
+                        <a
+                          href="start-here.html"
+                          class="drop-link-last w-inline-block"
+                          tabindex="0"
+                          ><div>Start Here</div></a
+                        ><a
+                          href="licenses.html"
+                          class="drop-link-last w-inline-block"
+                          tabindex="0"
+                          ><div>Licenses</div></a
+                        >
+                        <a
+                          href="changelog.html"
+                          class="drop-link-last w-inline-block"
+                          tabindex="0"
+                          ><div>Changelog</div></a
+                        >
+                        <a
+                          href="https://brixtemplates.com/more-templates"
+                          class="drop-link-last-2 special w-inline-block"
+                          tabindex="0"
+                          ><div>Browse More Templates</div></a
+                        >
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+              </li>
+              <li class="nav-item-wrapper">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item-wrapper">
+                <a href="store.html" class="nav-link">Store</a>
+              </li>
+              <li class="nav-item-wrapper">
+                <a href="videos.html" class="nav-link">Videos</a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
       <!-- hero -->
