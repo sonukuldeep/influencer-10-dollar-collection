@@ -27,7 +27,7 @@ function scrollTrigger(className, end = "bottom 70%") {
     const tl = gsap.timeline({
         scrollTrigger: {
             trigger: className,
-            markers: true,
+            // markers: true,
             start: "top 70%",
             end,
             scrub: 1,
